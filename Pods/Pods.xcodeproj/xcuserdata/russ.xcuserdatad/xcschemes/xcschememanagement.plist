@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>AFNetworking.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Haneke+AFNetworking.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Haneke.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-RussWetmore_iOSCodeChallenge.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>0944844FFAEA5E756787216B4A735653</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5D718FF1C252A3C589879FD8E96A4D54</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E836DE7D7CFCA7F1BF8C77219F3F8EA8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F0E0671F59AEFAB270787DA44CFE84DF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

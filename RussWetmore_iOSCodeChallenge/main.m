@@ -3,10 +3,10 @@
 //  RussWetmore_iOSCodeChallenge
 //
 //  Created by Russ Wetmore on 7/26/15.
-//  Copyright (c) 2015 the easydesign company. All rights reserved.
+//  Copyright (c) 2015. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+@import UIKit;
 #import "AppDelegate.h"
 
 int main(int argc, char * argv[]) {

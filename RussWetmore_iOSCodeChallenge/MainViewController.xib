@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="15A226f" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="bebasneue.ttf">
+            <string>BebasNeue</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainViewController">
+            <connections>
+                <outlet property="redditSearchButton" destination="iIt-hb-ZNG" id="RbH-qJ-IBM"/>
+                <outlet property="redditSearchTextField" destination="JEs-BG-YI9" id="n9b-E9-3KL"/>
+                <outlet property="redditTableView" destination="DMn-ew-1J0" id="PNJ-aS-l5n"/>
+                <outlet property="searchTextField" destination="JEs-BG-YI9" id="fRs-ic-kiL"/>
+                <outlet property="view" destination="0Nc-yW-zcL" id="NqP-cJ-nHc"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="0Nc-yW-zcL" userLabel="ContentView">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" keyboardDismissMode="onDrag" style="plain" separatorStyle="default" rowHeight="129" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="DMn-ew-1J0">
+                    <rect key="frame" x="0.0" y="68" width="600" height="532"/>
+                    <animations/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="six-zU-6vf"/>
+                        <outlet property="delegate" destination="-1" id="hNN-7W-mDY"/>
+                    </connections>
+                </tableView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vaD-JG-yYG" userLabel="SearchView">
+                    <rect key="frame" x="0.0" y="20" width="600" height="48"/>
+                    <subviews>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="JEs-BG-YI9" customClass="RedditSearchTextField">
+                            <rect key="frame" x="8" y="8" width="480" height="30"/>
+                            <animations/>
+                            <color key="backgroundColor" red="0.93725490196078431" green="0.93725490196078431" blue="0.95686274509803926" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                        <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iIt-hb-ZNG">
+                            <rect key="frame" x="496" y="8" width="100" height="30"/>
+                            <animations/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="100" id="Jb8-BX-ci4"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="BebasNeue" family="Bebas Neue" pointSize="22"/>
+                            <state key="normal" title="Search" backgroundImage="search-btn-bg">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="5"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="clipsToBounds" value="YES"/>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="handleRedditSearchButton:" destination="-1" eventType="touchUpInside" id="QXz-vy-tkp"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <animations/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="JEs-BG-YI9" firstAttribute="leading" secondItem="vaD-JG-yYG" secondAttribute="leading" constant="8" id="9fJ-gC-tAs"/>
+                        <constraint firstItem="iIt-hb-ZNG" firstAttribute="top" secondItem="vaD-JG-yYG" secondAttribute="top" constant="8" id="Ak3-gF-1vK"/>
+                        <constraint firstAttribute="trailing" secondItem="iIt-hb-ZNG" secondAttribute="trailing" constant="4" id="LIr-9Q-wXE"/>
+                        <constraint firstItem="iIt-hb-ZNG" firstAttribute="leading" secondItem="JEs-BG-YI9" secondAttribute="trailing" constant="8" id="Xod-aW-9ZG"/>
+                        <constraint firstAttribute="height" constant="48" id="ZgC-lT-pkj"/>
+                        <constraint firstItem="JEs-BG-YI9" firstAttribute="top" secondItem="vaD-JG-yYG" secondAttribute="top" constant="8" id="m1F-36-dd8"/>
+                        <constraint firstItem="iIt-hb-ZNG" firstAttribute="height" secondItem="JEs-BG-YI9" secondAttribute="height" id="oAL-0t-MvV"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="vaD-JG-yYG" firstAttribute="leading" secondItem="0Nc-yW-zcL" secondAttribute="leading" id="4qQ-0x-l2h"/>
+                <constraint firstItem="DMn-ew-1J0" firstAttribute="top" secondItem="vaD-JG-yYG" secondAttribute="bottom" id="8bA-3Y-BHh"/>
+                <constraint firstAttribute="trailing" secondItem="DMn-ew-1J0" secondAttribute="trailing" id="OUt-kn-uey"/>
+                <constraint firstAttribute="trailing" secondItem="vaD-JG-yYG" secondAttribute="trailing" id="WDf-J6-Ttr"/>
+                <constraint firstAttribute="bottom" secondItem="DMn-ew-1J0" secondAttribute="bottom" id="gQN-xW-hRU"/>
+                <constraint firstItem="DMn-ew-1J0" firstAttribute="leading" secondItem="0Nc-yW-zcL" secondAttribute="leading" id="pbk-xD-Kp5"/>
+                <constraint firstItem="vaD-JG-yYG" firstAttribute="top" secondItem="0Nc-yW-zcL" secondAttribute="top" constant="20" id="wOC-1h-5E2"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="search-btn-bg" width="6" height="27"/>
+    </resources>
+</document>

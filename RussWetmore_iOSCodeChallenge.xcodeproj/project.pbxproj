@@ -7,13 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		351574FA24E377FD4CF1DF3D /* Pods_RussWetmore_iOSCodeChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1DB5FF473AF5FDC56EB9F98 /* Pods_RussWetmore_iOSCodeChallenge.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		D24407C01B659BFE005DA31C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D24407BF1B659BFE005DA31C /* main.m */; };
 		D24407C31B659BFE005DA31C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D24407C21B659BFE005DA31C /* AppDelegate.m */; };
-		D24407C61B659BFE005DA31C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D24407C51B659BFE005DA31C /* ViewController.m */; };
-		D24407C91B659BFE005DA31C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D24407C71B659BFE005DA31C /* Main.storyboard */; };
 		D24407CB1B659BFE005DA31C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D24407CA1B659BFE005DA31C /* Images.xcassets */; };
-		D24407CE1B659BFE005DA31C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D24407CC1B659BFE005DA31C /* LaunchScreen.xib */; };
 		D24407DA1B659BFE005DA31C /* RussWetmore_iOSCodeChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D24407D91B659BFE005DA31C /* RussWetmore_iOSCodeChallengeTests.m */; };
+		D24407F61B659D59005DA31C /* bebasneue.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D24407EC1B659D59005DA31C /* bebasneue.ttf */; };
+		D24407F71B659D59005DA31C /* bebasneue.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D24407EC1B659D59005DA31C /* bebasneue.ttf */; };
+		D24407F91B659D59005DA31C /* README.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D24407ED1B659D59005DA31C /* README.pdf */; };
+		D25153711B6722F700CF0221 /* RedditFetchController.m in Sources */ = {isa = PBXBuildFile; fileRef = D25153701B6722F700CF0221 /* RedditFetchController.m */; };
+		D27C01611B675C510023D059 /* RedditPostCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D27C01601B675C510023D059 /* RedditPostCell.m */; };
+		D2AC1D231B689CC700501195 /* ConstraintUtilities+Description.m in Sources */ = {isa = PBXBuildFile; fileRef = D2AC1D121B689CC700501195 /* ConstraintUtilities+Description.m */; };
+		D2AC1D241B689CC700501195 /* ConstraintUtilities+Install.m in Sources */ = {isa = PBXBuildFile; fileRef = D2AC1D141B689CC700501195 /* ConstraintUtilities+Install.m */; };
+		D2AC1D251B689CC700501195 /* ConstraintUtilities+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = D2AC1D161B689CC700501195 /* ConstraintUtilities+Layout.m */; };
+		D2AC1D261B689CC700501195 /* ConstraintUtilities+Matching.m in Sources */ = {isa = PBXBuildFile; fileRef = D2AC1D181B689CC700501195 /* ConstraintUtilities+Matching.m */; };
+		D2AC1D271B689CC700501195 /* NSObject-Description.m in Sources */ = {isa = PBXBuildFile; fileRef = D2AC1D1C1B689CC700501195 /* NSObject-Description.m */; };
+		D2AC1D281B689CC700501195 /* NSObject-Nametag.m in Sources */ = {isa = PBXBuildFile; fileRef = D2AC1D1E1B689CC700501195 /* NSObject-Nametag.m */; };
+		D2AC1D291B689CC700501195 /* NSView+BackgroundColor.m in Sources */ = {isa = PBXBuildFile; fileRef = D2AC1D201B689CC700501195 /* NSView+BackgroundColor.m */; };
+		D2AC1D2A1B689CC700501195 /* View-Nametag.m in Sources */ = {isa = PBXBuildFile; fileRef = D2AC1D221B689CC700501195 /* View-Nametag.m */; };
+		D2B3E48A1B66E40100AEA51E /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B3E4881B66E40100AEA51E /* MainViewController.m */; };
+		D2B3E48B1B66E40100AEA51E /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2B3E4891B66E40100AEA51E /* MainViewController.xib */; };
+		D2B3E4911B67090E00AEA51E /* RedditSearchTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B3E4901B67090E00AEA51E /* RedditSearchTextField.m */; };
+		D2D977811B684DA5001BB7CB /* RedditTitleLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D977801B684DA5001BB7CB /* RedditTitleLabel.m */; };
+		D2FE5DB91B681FCC0022FC21 /* RedditPostCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2FE5DB81B681FCC0022FC21 /* RedditPostCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +43,52 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		45A2A201B5D33645F844BEEA /* Pods-RussWetmore_iOSCodeChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RussWetmore_iOSCodeChallenge.release.xcconfig"; path = "Pods/Target Support Files/Pods-RussWetmore_iOSCodeChallenge/Pods-RussWetmore_iOSCodeChallenge.release.xcconfig"; sourceTree = "<group>"; };
+		B1DB5FF473AF5FDC56EB9F98 /* Pods_RussWetmore_iOSCodeChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RussWetmore_iOSCodeChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D24407BA1B659BFE005DA31C /* RussWetmore_iOSCodeChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RussWetmore_iOSCodeChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D24407BE1B659BFE005DA31C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D24407BF1B659BFE005DA31C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D24407C11B659BFE005DA31C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D24407C21B659BFE005DA31C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D24407C41B659BFE005DA31C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D24407C51B659BFE005DA31C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		D24407C81B659BFE005DA31C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D24407CA1B659BFE005DA31C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		D24407CD1B659BFE005DA31C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		D24407D31B659BFE005DA31C /* RussWetmore_iOSCodeChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RussWetmore_iOSCodeChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D24407D81B659BFE005DA31C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D24407D91B659BFE005DA31C /* RussWetmore_iOSCodeChallengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RussWetmore_iOSCodeChallengeTests.m; sourceTree = "<group>"; };
+		D24407EC1B659D59005DA31C /* bebasneue.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = bebasneue.ttf; sourceTree = "<group>"; };
+		D24407ED1B659D59005DA31C /* README.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = README.pdf; sourceTree = "<group>"; };
+		D251536F1B6722F700CF0221 /* RedditFetchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedditFetchController.h; sourceTree = "<group>"; };
+		D25153701B6722F700CF0221 /* RedditFetchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedditFetchController.m; sourceTree = "<group>"; };
+		D27C015F1B675C510023D059 /* RedditPostCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedditPostCell.h; sourceTree = "<group>"; };
+		D27C01601B675C510023D059 /* RedditPostCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedditPostCell.m; sourceTree = "<group>"; };
+		D2AC1D0F1B689CC700501195 /* ConstraintPack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConstraintPack.h; sourceTree = "<group>"; };
+		D2AC1D101B689CC700501195 /* ConstraintUtilities+CreationMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ConstraintUtilities+CreationMacros.h"; sourceTree = "<group>"; };
+		D2AC1D111B689CC700501195 /* ConstraintUtilities+Description.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ConstraintUtilities+Description.h"; sourceTree = "<group>"; };
+		D2AC1D121B689CC700501195 /* ConstraintUtilities+Description.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ConstraintUtilities+Description.m"; sourceTree = "<group>"; };
+		D2AC1D131B689CC700501195 /* ConstraintUtilities+Install.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ConstraintUtilities+Install.h"; sourceTree = "<group>"; };
+		D2AC1D141B689CC700501195 /* ConstraintUtilities+Install.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ConstraintUtilities+Install.m"; sourceTree = "<group>"; };
+		D2AC1D151B689CC700501195 /* ConstraintUtilities+Layout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ConstraintUtilities+Layout.h"; sourceTree = "<group>"; };
+		D2AC1D161B689CC700501195 /* ConstraintUtilities+Layout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ConstraintUtilities+Layout.m"; sourceTree = "<group>"; };
+		D2AC1D171B689CC700501195 /* ConstraintUtilities+Matching.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ConstraintUtilities+Matching.h"; sourceTree = "<group>"; };
+		D2AC1D181B689CC700501195 /* ConstraintUtilities+Matching.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ConstraintUtilities+Matching.m"; sourceTree = "<group>"; };
+		D2AC1D191B689CC700501195 /* ConstraintUtilities+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ConstraintUtilities+Utility.h"; sourceTree = "<group>"; };
+		D2AC1D1A1B689CC700501195 /* NametagUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NametagUtilities.h; sourceTree = "<group>"; };
+		D2AC1D1B1B689CC700501195 /* NSObject-Description.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject-Description.h"; sourceTree = "<group>"; };
+		D2AC1D1C1B689CC700501195 /* NSObject-Description.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject-Description.m"; sourceTree = "<group>"; };
+		D2AC1D1D1B689CC700501195 /* NSObject-Nametag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject-Nametag.h"; sourceTree = "<group>"; };
+		D2AC1D1E1B689CC700501195 /* NSObject-Nametag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject-Nametag.m"; sourceTree = "<group>"; };
+		D2AC1D1F1B689CC700501195 /* NSView+BackgroundColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSView+BackgroundColor.h"; sourceTree = "<group>"; };
+		D2AC1D201B689CC700501195 /* NSView+BackgroundColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSView+BackgroundColor.m"; sourceTree = "<group>"; };
+		D2AC1D211B689CC700501195 /* View-Nametag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View-Nametag.h"; sourceTree = "<group>"; };
+		D2AC1D221B689CC700501195 /* View-Nametag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View-Nametag.m"; sourceTree = "<group>"; };
+		D2B3E4871B66E40100AEA51E /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		D2B3E4881B66E40100AEA51E /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		D2B3E4891B66E40100AEA51E /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		D2B3E48F1B67090E00AEA51E /* RedditSearchTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedditSearchTextField.h; sourceTree = "<group>"; };
+		D2B3E4901B67090E00AEA51E /* RedditSearchTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedditSearchTextField.m; sourceTree = "<group>"; };
+		D2D9777F1B684DA5001BB7CB /* RedditTitleLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedditTitleLabel.h; sourceTree = "<group>"; };
+		D2D977801B684DA5001BB7CB /* RedditTitleLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedditTitleLabel.m; sourceTree = "<group>"; };
+		D2FE5DB81B681FCC0022FC21 /* RedditPostCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RedditPostCell.xib; sourceTree = "<group>"; };
+		D670E8322067206EF55A8F4D /* Pods-RussWetmore_iOSCodeChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RussWetmore_iOSCodeChallenge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RussWetmore_iOSCodeChallenge/Pods-RussWetmore_iOSCodeChallenge.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				351574FA24E377FD4CF1DF3D /* Pods_RussWetmore_iOSCodeChallenge.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +110,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		426B2C88B97ECE2FA046B53B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B1DB5FF473AF5FDC56EB9F98 /* Pods_RussWetmore_iOSCodeChallenge.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		46DD742AABF3DCD698E81BD3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D670E8322067206EF55A8F4D /* Pods-RussWetmore_iOSCodeChallenge.debug.xcconfig */,
+				45A2A201B5D33645F844BEEA /* Pods-RussWetmore_iOSCodeChallenge.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D24407B11B659BFE005DA31C = {
 			isa = PBXGroup;
 			children = (
 				D24407BC1B659BFE005DA31C /* RussWetmore_iOSCodeChallenge */,
 				D24407D61B659BFE005DA31C /* RussWetmore_iOSCodeChallengeTests */,
 				D24407BB1B659BFE005DA31C /* Products */,
+				46DD742AABF3DCD698E81BD3 /* Pods */,
+				426B2C88B97ECE2FA046B53B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,13 +150,20 @@
 		D24407BC1B659BFE005DA31C /* RussWetmore_iOSCodeChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				D2AC1D0E1B689C2B00501195 /* Constraints Pack */,
 				D24407C11B659BFE005DA31C /* AppDelegate.h */,
 				D24407C21B659BFE005DA31C /* AppDelegate.m */,
-				D24407C41B659BFE005DA31C /* ViewController.h */,
-				D24407C51B659BFE005DA31C /* ViewController.m */,
-				D24407C71B659BFE005DA31C /* Main.storyboard */,
+				D2B3E4871B66E40100AEA51E /* MainViewController.h */,
+				D2B3E4881B66E40100AEA51E /* MainViewController.m */,
+				D251536F1B6722F700CF0221 /* RedditFetchController.h */,
+				D25153701B6722F700CF0221 /* RedditFetchController.m */,
+				D27C015F1B675C510023D059 /* RedditPostCell.h */,
+				D27C01601B675C510023D059 /* RedditPostCell.m */,
+				D2B3E48F1B67090E00AEA51E /* RedditSearchTextField.h */,
+				D2B3E4901B67090E00AEA51E /* RedditSearchTextField.m */,
+				D2D9777F1B684DA5001BB7CB /* RedditTitleLabel.h */,
+				D2D977801B684DA5001BB7CB /* RedditTitleLabel.m */,
 				D24407CA1B659BFE005DA31C /* Images.xcassets */,
-				D24407CC1B659BFE005DA31C /* LaunchScreen.xib */,
 				D24407BD1B659BFE005DA31C /* Supporting Files */,
 			);
 			path = RussWetmore_iOSCodeChallenge;
@@ -96,6 +172,8 @@
 		D24407BD1B659BFE005DA31C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D24407E31B659CD8005DA31C /* Assets */,
+				D24407FA1B659F05005DA31C /* Nibs */,
 				D24407BE1B659BFE005DA31C /* Info.plist */,
 				D24407BF1B659BFE005DA31C /* main.m */,
 			);
@@ -119,6 +197,59 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		D24407E31B659CD8005DA31C /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				D24407EB1B659D59005DA31C /* Font */,
+				D24407ED1B659D59005DA31C /* README.pdf */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		D24407EB1B659D59005DA31C /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				D24407EC1B659D59005DA31C /* bebasneue.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		D24407FA1B659F05005DA31C /* Nibs */ = {
+			isa = PBXGroup;
+			children = (
+				D2B3E4891B66E40100AEA51E /* MainViewController.xib */,
+				D2FE5DB81B681FCC0022FC21 /* RedditPostCell.xib */,
+			);
+			name = Nibs;
+			sourceTree = "<group>";
+		};
+		D2AC1D0E1B689C2B00501195 /* Constraints Pack */ = {
+			isa = PBXGroup;
+			children = (
+				D2AC1D0F1B689CC700501195 /* ConstraintPack.h */,
+				D2AC1D101B689CC700501195 /* ConstraintUtilities+CreationMacros.h */,
+				D2AC1D111B689CC700501195 /* ConstraintUtilities+Description.h */,
+				D2AC1D121B689CC700501195 /* ConstraintUtilities+Description.m */,
+				D2AC1D131B689CC700501195 /* ConstraintUtilities+Install.h */,
+				D2AC1D141B689CC700501195 /* ConstraintUtilities+Install.m */,
+				D2AC1D151B689CC700501195 /* ConstraintUtilities+Layout.h */,
+				D2AC1D161B689CC700501195 /* ConstraintUtilities+Layout.m */,
+				D2AC1D171B689CC700501195 /* ConstraintUtilities+Matching.h */,
+				D2AC1D181B689CC700501195 /* ConstraintUtilities+Matching.m */,
+				D2AC1D191B689CC700501195 /* ConstraintUtilities+Utility.h */,
+				D2AC1D1A1B689CC700501195 /* NametagUtilities.h */,
+				D2AC1D1B1B689CC700501195 /* NSObject-Description.h */,
+				D2AC1D1C1B689CC700501195 /* NSObject-Description.m */,
+				D2AC1D1D1B689CC700501195 /* NSObject-Nametag.h */,
+				D2AC1D1E1B689CC700501195 /* NSObject-Nametag.m */,
+				D2AC1D1F1B689CC700501195 /* NSView+BackgroundColor.h */,
+				D2AC1D201B689CC700501195 /* NSView+BackgroundColor.m */,
+				D2AC1D211B689CC700501195 /* View-Nametag.h */,
+				D2AC1D221B689CC700501195 /* View-Nametag.m */,
+			);
+			name = "Constraints Pack";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +257,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D24407DD1B659BFE005DA31C /* Build configuration list for PBXNativeTarget "RussWetmore_iOSCodeChallenge" */;
 			buildPhases = (
+				C8B61830A64B140702A25402 /* Check Pods Manifest.lock */,
 				D24407B61B659BFE005DA31C /* Sources */,
 				D24407B71B659BFE005DA31C /* Frameworks */,
 				D24407B81B659BFE005DA31C /* Resources */,
+				0C40843C377A2830800EC09F /* Embed Pods Frameworks */,
+				35B391AA53FDE407515F83F8 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,7 +298,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0640;
-				ORGANIZATIONNAME = "the easydesign company";
+				ORGANIZATIONNAME = "";
 				TargetAttributes = {
 					D24407B91B659BFE005DA31C = {
 						CreatedOnToolsVersion = 6.4;
@@ -199,9 +333,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D24407C91B659BFE005DA31C /* Main.storyboard in Resources */,
-				D24407CE1B659BFE005DA31C /* LaunchScreen.xib in Resources */,
+				D2B3E48B1B66E40100AEA51E /* MainViewController.xib in Resources */,
+				D24407F61B659D59005DA31C /* bebasneue.ttf in Resources */,
 				D24407CB1B659BFE005DA31C /* Images.xcassets in Resources */,
+				D2FE5DB91B681FCC0022FC21 /* RedditPostCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,19 +344,81 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D24407F91B659D59005DA31C /* README.pdf in Resources */,
+				D24407F71B659D59005DA31C /* bebasneue.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C40843C377A2830800EC09F /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RussWetmore_iOSCodeChallenge/Pods-RussWetmore_iOSCodeChallenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		35B391AA53FDE407515F83F8 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RussWetmore_iOSCodeChallenge/Pods-RussWetmore_iOSCodeChallenge-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8B61830A64B140702A25402 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D24407B61B659BFE005DA31C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D24407C61B659BFE005DA31C /* ViewController.m in Sources */,
+				D2AC1D281B689CC700501195 /* NSObject-Nametag.m in Sources */,
+				D2B3E48A1B66E40100AEA51E /* MainViewController.m in Sources */,
+				D25153711B6722F700CF0221 /* RedditFetchController.m in Sources */,
+				D2B3E4911B67090E00AEA51E /* RedditSearchTextField.m in Sources */,
+				D2AC1D251B689CC700501195 /* ConstraintUtilities+Layout.m in Sources */,
+				D2AC1D261B689CC700501195 /* ConstraintUtilities+Matching.m in Sources */,
+				D2D977811B684DA5001BB7CB /* RedditTitleLabel.m in Sources */,
+				D2AC1D271B689CC700501195 /* NSObject-Description.m in Sources */,
+				D2AC1D231B689CC700501195 /* ConstraintUtilities+Description.m in Sources */,
 				D24407C31B659BFE005DA31C /* AppDelegate.m in Sources */,
 				D24407C01B659BFE005DA31C /* main.m in Sources */,
+				D2AC1D2A1B689CC700501195 /* View-Nametag.m in Sources */,
+				D2AC1D291B689CC700501195 /* NSView+BackgroundColor.m in Sources */,
+				D2AC1D241B689CC700501195 /* ConstraintUtilities+Install.m in Sources */,
+				D27C01611B675C510023D059 /* RedditPostCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,25 +439,6 @@
 			targetProxy = D24407D41B659BFE005DA31C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		D24407C71B659BFE005DA31C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D24407C81B659BFE005DA31C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		D24407CC1B659BFE005DA31C /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D24407CD1B659BFE005DA31C /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		D24407DB1B659BFE005DA31C /* Debug */ = {
@@ -303,6 +481,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Debug;
 		};
@@ -339,27 +518,35 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				VALIDATE_PRODUCT = YES;
+				VALIDATE_PRODUCT = NO;
 			};
 			name = Release;
 		};
 		D24407DE1B659BFE005DA31C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D670E8322067206EF55A8F4D /* Pods-RussWetmore_iOSCodeChallenge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = RussWetmore_iOSCodeChallenge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		D24407DF1B659BFE005DA31C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45A2A201B5D33645F844BEEA /* Pods-RussWetmore_iOSCodeChallenge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = RussWetmore_iOSCodeChallenge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -416,6 +603,7 @@
 				D24407DF1B659BFE005DA31C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D24407E01B659BFE005DA31C /* Build configuration list for PBXNativeTarget "RussWetmore_iOSCodeChallengeTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +612,7 @@
 				D24407E21B659BFE005DA31C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

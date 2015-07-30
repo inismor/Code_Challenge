@@ -4,7 +4,12 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>RussWetmore_iOSCodeChallenge.xcscheme</key>
+		<key>Challenge (RELEASE).xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>Challenge (debug).xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
