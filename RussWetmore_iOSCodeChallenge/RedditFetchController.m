@@ -31,8 +31,7 @@ NSString * const START_FETCH_NOTIFICATION = @"StartFetchNotification";
 	if (( self = [super init] )) {
 		_delegate = delegate;
 		_searchTerm = kInitialSearchTerm;
-//		_posts = [NSMutableArray array];
-		
+
 		// When initialized, kick off a fetch using the initial search term
 		[self fetch];
 	}
